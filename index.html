@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--基礎データの一番下のボタン押してください-->
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="benia.css">
+    <script src="index.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>[公式]新生王国バルベニア</title>
+</head>
+
+<body>
+
+    <!--右上のメニュー的なところ-->
+    <header>
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-btn-check">
+            <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            <!--ここからメニュー-->
+            <div class="menu-content">
+                <ul>
+                    <li>
+                        <a href="ippan.html">基礎データ</a>
+                    </li>
+                    <li>
+                        <a href="konko.html">観光地案内</a>
+                    </li>
+                    <li>
+                        <a href="menba.html">国民紹介</a>
+                    </li>
+                   
+                </ul>
+            </div>
+            <!--ここまでメニュー-->
+        </div>
+    </header>
+<!--右上のメニュー ここまで-->
+
+    <div class="obi"><!--新生王国バルベニアって赤色で英語でも書いたあるやつ-->
+        <img src="images/obi.png">
+    </div>
+    <div class="tuita"><!--Twitterへの誘導、クリックでベニア公式Twitterへ-->
+        <a href="https://twitter.com/Kingdom_Wii?s=20" target="_blank">
+            <img src="images/tuita.png"></a>
+    </div>
+    <div class="line"><!--バケモンスタンプ購入画面へ-->
+        <a href="https://store.line.me/stickershop/product/20680201/ja" target="_blank">
+            <img src="images/line.png">
+        </a>
+    </div>
+    <div class="mokuzi"><!--国旗と基礎データのページへ飛ぶやつ-->
+        <img src="images/kokki.jpg">
+        <h3>新生王国バルベニア</h3>
+        <h1>＜基礎データ＞</h1>
+    </div>
+    <div class="komidasi">
+        <a href="ippan.html#ippan"> <!--これ<a>わけないと、どれかクリックしたときに全部点滅？ する-->
+            <h2 class="koumoku">・一般情報</h2>
+        </a>
+        <a href="ippan.html#seizi">
+            <h2 class="koumoku">・政治体制</h2>
+        </a>
+        <a href="ippan.html#keizai">
+            <h2 class="koumoku">・経済</h2>
+        </a>
+        <a href="ippan.html#syukyo">
+            <h2 class="koumoku">・宗教</h2>
+        </a>
+    </div>
+    <br>
+
+
+    <div class="mokuzi">
+        <h1> ＜非国民の方はこちら＞</h1>
+    </div>
+
+    <div class="imgmokuzi">
+        <a href="konko.html">
+            <img src="images/kanko.png" onmouseover="addHighlight(this)" onmouseout="removeHighlight(this)">
+        </a>
+        <a href="menba.html">
+            <img src="images/menba.png " onmouseover="addHighlight(this)" onmouseout="removeHighlight(this)">
+        </a>
+        <a href="noimg.html">
+            <img src="images/noimg.png" onmouseover="addHighlight(this)" onmouseout="removeHighlight(this)">
+        </a>
+    </div>
+    <hr>
+    <div class="hutta-">
+        <img class="sime" src="images/kokki.jpg">
+        <h1>新生王国バルベニア©︎</h1>
+    </div>
+</body>
+
+</html>
